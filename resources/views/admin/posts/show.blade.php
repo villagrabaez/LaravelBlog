@@ -8,9 +8,9 @@
             <h4>Ver post</h4>
           </div>
           <div class="panel-body">
-            <p><strong>Nombre: </strong> {{ $post->name }} </p>
-            <p><strong>Slug: </strong> {{ $post->slug }} </p>
-            <p><strong>Descripcion: </strong> {{ $post->body }}</p>
+            <p><strong>Nombre: </strong> {!! $post->name !!}</p>
+            <p><strong>Slug: </strong> {!! $post->slug !!}</p>
+            <p><strong>Descripcion: </strong> {!! $post->body !!}</p>
           </div>
           <div class="panel-footer">
             <a href=" {{ route('posts.index') }} " class="btn btn-sm btn-primary">Volver</a>
